@@ -1,8 +1,8 @@
 const About = () => (
   <main className="container py-5">
-    <h1>About CrispyBite</h1>
+    <h1>About QuickBite</h1>
     <p className="lead">
-      CrispyBite is a fictional student project that demonstrates a complete restaurant ordering workflow without using real restaurant trademarks or copyrighted menu assets.
+      QuickBite is a fictional student project that demonstrates a complete restaurant ordering workflow without using real restaurant trademarks or copyrighted menu assets.
     </p>
     <div className="row g-4 mt-2">
       <div className="col-md-4">

@@ -1,6 +1,6 @@
-# CrispyBite Frontend
+# QuickBite Frontend
 
-CrispyBite is a fictional React food ordering app built for students learning full-stack development. It connects to the CrispyBite Express backend and supports customer, restaurant staff, delivery rider, and admin workflows.
+QuickBite is a fictional React food ordering app built for students learning full-stack development. It connects to the QuickBite Express backend and supports customer, restaurant staff, delivery rider, and admin workflows.
 
 This frontend uses a fictional brand only. It does not use real KFC logos, trademarks, copyrighted images, or official menu assets.
 
@@ -31,7 +31,7 @@ Install these before running the project:
 
 - Node.js 18 or newer
 - npm
-- The CrispyBite backend running on `http://localhost:5000`
+- The QuickBite backend running on `http://localhost:5000`
 
 Check your versions:
 
@@ -42,8 +42,8 @@ npm -v
 
 ## Folder Structure
 
-```text
-crispybite-frontend/
+```texted
+QuickBite-frontend/
   src/
     components/
       Navbar.jsx             Role-aware navigation
@@ -120,10 +120,10 @@ If that port is busy, Vite prints the next available port in the terminal.
 Start the backend first:
 
 ```bash
-cd ../crispybite-backend
+cd ../QuickBite-backend
 cp .env.example .env
 mysql -u root -p < database/schema.sql
-mysql -u root -p crispybite_db < database/seed.sql
+mysql -u root -p QuickBite_db < database/seed.sql
 npm install
 npm run dev
 ```
@@ -131,7 +131,7 @@ npm run dev
 Then start the frontend in another terminal:
 
 ```bash
-cd ../crispybite-frontend
+cd ../QuickBite-frontend
 cp .env.example .env
 npm install
 npm run dev

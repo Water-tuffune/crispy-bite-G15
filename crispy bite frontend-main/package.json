@@ -1,7 +1,7 @@
 {
-  "name": "crispybite-frontend",
+  "name": "QuickBite-frontend",
   "version": "1.0.0",
-  "description": "CrispyBite React frontend for student full-stack learning.",
+  "description": "QuickBite React frontend for student full-stack learning.",
   "private": true,
   "type": "module",
   "scripts": {

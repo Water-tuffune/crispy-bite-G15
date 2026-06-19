@@ -1,6 +1,6 @@
-# CrispyBite Backend
+# QuickBite Backend
 
-CrispyBite is a fictional fast-food ordering backend built for students learning full-stack development. It does not use real KFC logos, trademarks, copyrighted images, or official menu assets.
+QuickBite is a fictional fast-food ordering backend built for students learning full-stack development. It does not use real KFC logos, trademarks, copyrighted images, or official menu assets.
 
 The backend teaches how a real ordering API is structured: users authenticate with JWT, passwords are hashed with bcrypt, menu data is stored in MariaDB/MySQL, customers place orders from carts, restaurant staff process orders, riders update deliveries, and admins manage the system.
 

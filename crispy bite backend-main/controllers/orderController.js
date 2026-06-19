@@ -9,7 +9,7 @@ const createTrackingRecord = async (connection, orderId, status, description, up
   );
 };
 
-const createOrderNumber = () => `CB-${Date.now()}-${Math.floor(Math.random() * 900 + 100)}`;
+const createOrderNumber = () => `QB-${Date.now()}-${Math.floor(Math.random() * 900 + 100)}`;
 
 const placeOrder = async (req, res) => {
   const connection = await db.getConnection();

@@ -1,7 +1,7 @@
 {
-  "name": "crispybite-backend",
+  "name": "QuickBite-backend",
   "version": "1.0.0",
-  "description": "CrispyBite Express and MariaDB backend for student full-stack learning.",
+  "description": "QuickBite Express and MariaDB backend for student full-stack learning.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

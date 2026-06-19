@@ -41,5 +41,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`CrispyBite backend running on http://localhost:${PORT}`);
+  console.log(`QuickBite backend running on http://localhost:${PORT}`);
 });

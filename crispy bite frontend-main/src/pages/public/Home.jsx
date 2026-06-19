@@ -18,12 +18,12 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center g-4">
             <div className="col-lg-7">
-              <h1 className="display-4 fw-bold">CrispyBite</h1>
+              <h1 className="display-4 fw-bold">QuickBite</h1>
               <p className="lead">A fictional fast-food ordering app for learning full-stack development with React, Express, JWT, and MariaDB.</p>
               <Link className="btn btn-danger btn-lg" to="/menu">Browse Menu</Link>
             </div>
             <div className="col-lg-5">
-              <img className="img-fluid rounded" src="https://placehold.co/700x480/cc1f1a/ffffff?text=CrispyBite+Meals" alt="CrispyBite meals" />
+              <img className="img-fluid rounded" src="https://placehold.co/700x480/cc1f1a/ffffff?text=QuickBite+Meals" alt="QuickBite meals" />
             </div>
           </div>
         </div>

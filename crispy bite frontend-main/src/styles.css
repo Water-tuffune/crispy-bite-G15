@@ -1,13 +1,13 @@
 :root {
-  --cb-red: #c91f1f;
-  --cb-dark: #111111;
-  --cb-gold: #f5c542;
-  --cb-soft: #f7f7f7;
+  --qb-red: #58c91f;
+  --qb-dark: #111111;
+  --qb-gold: #dec379;
+  --qb-soft: #f7f7f7;
 }
 
 body {
-  background: #ffffff;
-  color: var(--cb-dark);
+  background: #e4dede;
+  color: var(--qb-dark);
 }
 
 .app-shell {
@@ -20,7 +20,7 @@ body {
 }
 
 .brand-mark {
-  background: var(--cb-red);
+  background: var(--qb-red);
   color: #fff;
   border-radius: 6px;
   padding: 0.25rem 0.45rem;
@@ -35,12 +35,12 @@ body {
 
 .btn-danger,
 .bg-danger {
-  background-color: var(--cb-red) !important;
-  border-color: var(--cb-red) !important;
+  background-color: var(--qb-red) !important;
+  border-color: var(--qb-red) !important;
 }
 
 .text-danger {
-  color: var(--cb-red) !important;
+  color: var(--qb-red) !important;
 }
 
 .food-card {
@@ -71,7 +71,7 @@ body {
 }
 
 .timeline {
-  border-left: 3px solid var(--cb-red);
+  border-left: 3px solid var(--qb-red);
   margin-left: 0.75rem;
   padding-left: 1.25rem;
 }
@@ -89,7 +89,7 @@ body {
   width: 0.75rem;
   height: 0.75rem;
   border-radius: 50%;
-  background: var(--cb-red);
+  background: var(--qb-red);
 }
 
 .table-actions {

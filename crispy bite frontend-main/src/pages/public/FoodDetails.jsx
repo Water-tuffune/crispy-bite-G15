@@ -34,7 +34,7 @@ const FoodDetails = () => {
       <AlertMessage type="success" message={message} />
       <div className="row g-4">
         <div className="col-md-6">
-          <img className="img-fluid rounded" src={item.image || "https://placehold.co/700x500?text=CrispyBite"} alt={item.item_name} />
+          <img className="img-fluid rounded" src={item.image || "https://placehold.co/700x500?text=QuickBite"} alt={item.item_name} />
         </div>
         <div className="col-md-6">
           <div className="text-muted">{item.category_name}</div>

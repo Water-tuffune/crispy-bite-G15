@@ -7,7 +7,7 @@ const FoodCard = ({ item, onAddToCart }) => {
 
   return (
     <div className="food-card">
-      <img className="food-image" src={item.image || "https://placehold.co/600x400?text=CrispyBite"} alt={item.item_name} />
+      <img className="food-image" src={item.image || "https://placehold.co/600x400?text=QuickBite"} alt={item.item_name} />
       <div className="p-3">
         <div className="d-flex justify-content-between align-items-start gap-2">
           <div>

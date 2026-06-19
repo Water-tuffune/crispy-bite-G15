@@ -53,9 +53,9 @@ INSERT INTO delivery_addresses (id, customer_id, district, area, street, landmar
 (2, 3, 'Kampala', 'Kololo', 'Hill Lane', 'Blue gate', '+256700000003');
 
 INSERT INTO orders (id, customer_id, rider_id, order_number, order_type, delivery_address_id, total_amount, payment_method, payment_status, order_status, customer_notes) VALUES
-(1, 2, NULL, 'CB-SEED-1001', 'pickup', NULL, 13.24, 'cash', 'pending', 'Pending', 'Please add extra napkins.'),
-(2, 3, 7, 'CB-SEED-1002', 'delivery', 2, 21.98, 'mobile_money', 'paid', 'On the Way', 'Call when nearby.'),
-(3, 2, 8, 'CB-SEED-1003', 'delivery', 1, 27.99, 'cash', 'pending', 'Accepted', 'No spicy sauce.');
+(1, 2, NULL, 'QB-SEED-1001', 'pickup', NULL, 13.24, 'cash', 'pending', 'Pending', 'Please add extra napkins.'),
+(2, 3, 7, 'QB-SEED-1002', 'delivery', 2, 21.98, 'mobile_money', 'paid', 'On the Way', 'Call when nearby.'),
+(3, 2, 8, 'QB-SEED-1003', 'delivery', 1, 27.99, 'cash', 'pending', 'Accepted', 'No spicy sauce.');
 
 INSERT INTO order_items (order_id, menu_item_id, quantity, unit_price, subtotal) VALUES
 (1, 4, 1, 7.99, 7.99),
@@ -82,9 +82,9 @@ INSERT INTO payments (order_id, amount, payment_method, payment_status, transact
 (3, 27.99, 'cash', 'pending', 'PAY-SEED-1003');
 
 INSERT INTO notifications (user_id, title, message, status) VALUES
-(2, 'Order received', 'Your order CB-SEED-1001 was received.', 'unread'),
+(2, 'Order received', 'Your order QB-SEED-1001 was received.', 'unread'),
 (3, 'Delivery update', 'Your order is on the way.', 'unread'),
-(7, 'New delivery assigned', 'Order CB-SEED-1002 is assigned to you.', 'read');
+(7, 'New delivery assigned', 'Order QB-SEED-1002 is assigned to you.', 'read');
 
 INSERT INTO reviews (order_id, customer_id, rating, comment) VALUES
 (2, 3, 5, 'Food was hot and delivery was smooth.');

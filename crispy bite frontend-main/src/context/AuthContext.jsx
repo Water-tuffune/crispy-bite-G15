@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     const loadCurrentUser = async () => {
-      const token = localStorage.getItem("crispybite_token");
+      const token = localStorage.getItem("QuickBite_token");
       if (!token) {
         setLoading(false);
         return;
@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
         const response = await authService.me();
         setUser(response.data.user);
       } catch (error) {
-        localStorage.removeItem("crispybite_token");
+        localStorage.removeItem("QuickBite_token");
       } finally {
         setLoading(false);
       }
@@ -31,20 +31,20 @@ export const AuthProvider = ({ children }) => {
   // AuthContext keeps login state available to every page without prop drilling.
   const login = async (email, password) => {
     const response = await authService.login({ email, password });
-    localStorage.setItem("crispybite_token", response.data.token);
+    localStorage.setItem("QuickBite_token", response.data.token);
     setUser(response.data.user);
     return response.data.user;
   };
 
   const register = async (payload) => {
     const response = await authService.register(payload);
-    localStorage.setItem("crispybite_token", response.data.token);
+    localStorage.setItem("QuickBite_token", response.data.token);
     setUser(response.data.user);
     return response.data.user;
   };
 
   const logout = () => {
-    localStorage.removeItem("crispybite_token");
+    localStorage.removeItem("QuickBite_token");
     setUser(null);
   };
 
